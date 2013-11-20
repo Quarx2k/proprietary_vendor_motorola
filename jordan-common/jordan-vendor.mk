@@ -193,16 +193,10 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/bin/protocol_driver:system/bin/protocol_driver \
 	$(vendor_path)/bin/nvm_daemon:system/bin/nvm_daemon \
 	$(vendor_path)/bin/gkisystem:system/bin/gkisystem \
-	$(vendor_path)/bin/fmradioserver:system/bin/fmradioserver \
 	$(vendor_path)/bin/brcm_guci_drv:system/bin/brcm_guci_drv \
 	$(vendor_path)/bin/akmd2:system/bin/akmd2 \
 	$(vendor_path)/bin/location:system/bin/location \
 	$(vendor_path)/bin/ssmgrd:system/bin/ssmgrd \
-	$(vendor_path)/bin/mkfs.exfat:system/bin/mkfs.exfat \
-	$(vendor_path)/bin/mount.exfat:system/bin/mount.exfat \
-	$(vendor_path)/bin/ntfs-3g:system/bin/ntfs-3g \
-	$(vendor_path)/bin/ntfs-3g.probe:system/bin/ntfs-3g.probe \
-	$(vendor_path)/bin/fsck.exfat:system/bin/fsck.exfat \
 	$(vendor_path)/bin/secclkd:system/bin/secclkd \
 	$(vendor_path)/bin/panic_daemon:system/bin/panic_daemon \
 	$(vendor_path)/bin/opprofdaemon:system/bin/opprofdaemon \
