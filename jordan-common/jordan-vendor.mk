@@ -200,7 +200,8 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/bin/secclkd:system/bin/secclkd \
 	$(vendor_path)/bin/panic_daemon:system/bin/panic_daemon \
 	$(vendor_path)/bin/opprofdaemon:system/bin/opprofdaemon \
-	$(vendor_path)/bin/battd:system/bin/battd
+	$(vendor_path)/bin/battd:system/bin/battd \
+	$(vendor_path)/bin/fmradioserver:system/bin/fmradioserver
 
 #location proxy
 PRODUCT_COPY_FILES += \
