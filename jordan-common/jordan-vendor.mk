@@ -39,7 +39,10 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/lib/libtpa_core.so:system/lib/libtpa_core.so \
 	$(vendor_path)/lib/libpanic_daemon.so:system/lib/libpanic_daemon.so \
 	$(vendor_path)/lib/libwvm.so:system/vendor/lib/libwvm.so \
-	$(vendor_path)/lib/hw/gps.jordan.so:system/lib/hw/gps.jordan.so 
+	$(vendor_path)/lib/hw/gps.jordan.so:system/lib/hw/gps.jordan.so \
+	$(vendor_path)/lib/libFMRadio.so:system/lib/libFMRadio.so \
+	$(vendor_path)/lib/libfmradio_jni.so:system/lib/libfmradio_jni.so \
+	$(vendor_path)/lib/libfmradioplayer.so:system/lib/libfmradioplayer.so
 
 # dsp
 PRODUCT_COPY_FILES += \
