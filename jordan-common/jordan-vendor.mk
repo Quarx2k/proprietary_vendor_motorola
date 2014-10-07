@@ -63,11 +63,13 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/lib/dsp/720p_mp4vdec_sn.dll64P:system/lib/dsp/720p_mp4vdec_sn.dll64P \
 	$(vendor_path)/lib/dsp/720p_h264venc_sn.dll64P:system/lib/dsp/720p_h264venc_sn.dll64P \
 	$(vendor_path)/lib/dsp/720p_mp4venc_sn.dll64P:system/lib/dsp/720p_mp4venc_sn.dll64P \
+	$(vendor_path)/lib/libkobecamera.so:system/lib/libkobecamera.so \
 
 #Moto etc
 PRODUCT_COPY_FILES += \
         $(vendor_path)/etc/cameraCalFileDef5M.bin:system/etc/cameraCalFileDef5M.bin \
-        $(vendor_path)/etc/mot_ise_imager_cfg.bin:system/etc/mot_ise_imager_cfg.bin \
+        $(vendor_path)/etc/mot_ise_imager_cfg_mb526.bin:system/etc/mot_ise_imager_cfg_mb526.bin \
+	$(vendor_path)/etc/mot_ise_imager_cfg_mb520.bin:system/etc/mot_ise_imager_cfg_mb520.bin \
 	$(vendor_path)/etc/motorola/ap_flex_version.txt:system/etc/motorola/ap_flex_version.txt \
 	$(vendor_path)/etc/motorola/comm_drv/commdrv_fs.sh:system/etc/motorola/comm_drv/commdrv_fs.sh \
 	$(vendor_path)/etc/motorola/comm_drv/mmins_cust_emergency_number.cfg:system/etc/motorola/comm_drv/mmins_cust_emergency_number.cfg \
